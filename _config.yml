@@ -1,0 +1,7 @@
+# Site settings
+title: News Summarize
+description: News Summarize - AI-powered news summaries
+keywords: News, Summary, AI
+author: kost0806
+baseurl: "/news-summarize"
+url: "https://kost0806.github.io"

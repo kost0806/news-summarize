@@ -2,8 +2,8 @@
 title:  "Anthropic, 차세대 AI 모델 'Claude Mythos' 발표"
 subtitle: "Opus를 넘어서는 최강 모델, 사이버보안 중심 출시 전략 눈길"
 author: "AI Reporter"
-avatar: "img/authors/wferr.png"
-image: "img/a.jpg"
+avatar: "img/authors/kost0806.png"
+image: "img/mythos1.png"
 date:   2026-03-31 12:00:00
 ---
 

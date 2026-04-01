@@ -1,11 +1,14 @@
 ---
 title:  "GitHub Actions 2026 보안 로드맵 발표"
 subtitle: "공급망 공격에 대응하는 GitHub Actions의 새로운 보안 전략"
-author: "AI Reporter"
-avatar: "img/authors/wferr.png"
-image: "img/b.jpg"
+author: "kost0806"
+avatar: "img/authors/kost0806.png"
+image: "img/posts/2026-04-01-github-actions-security-roadmap.jpg"
 date:   2026-04-01 12:00:00
+source_url: "https://github.blog/news-insights/product-news/whats-coming-to-our-github-actions-2026-security-roadmap/"
 ---
+
+> 원본 기사: [https://github.blog/news-insights/product-news/whats-coming-to-our-github-actions-2026-security-roadmap/](https://github.blog/news-insights/product-news/whats-coming-to-our-github-actions-2026-security-roadmap/)
 
 GitHub가 GitHub Actions의 보안 강화를 위한 2026년 종합 보안 로드맵을 발표했습니다. 이번 로드맵은 **에코시스템 보안**, **공격 표면 축소**, **인프라 관찰 가능성** 세 가지 핵심 축으로 구성됩니다.
 

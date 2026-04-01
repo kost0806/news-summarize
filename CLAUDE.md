@@ -29,6 +29,7 @@ author: "kost0806"
 avatar: "img/authors/kost0806.png"
 image: "img/posts/YYYY-MM-DD-slug.jpg"
 date:   2026-03-31 12:00:00
+source_url: "https://example.com/original-article"
 ---
 ```
 
@@ -42,6 +43,7 @@ date:   2026-03-31 12:00:00
 | `avatar` | O | 작성자 아바타 이미지 경로. `"img/authors/kost0806.png"` 사용 |
 | `image` | O | 카드 배경 이미지 경로. 요약 대상 링크의 대표 이미지(og:image)를 다운로드하여 `img/posts/` 디렉토리에 저장 후 해당 경로 지정 |
 | `date` | O | `YYYY-MM-DD HH:MM:SS` 형식. 최신 날짜가 먼저 표시됨 |
+| `source_url` | O | 요약 대상 원본 뉴스 기사의 URL. 큰따옴표로 감쌈 |
 
 ### 이미지 설정
 
@@ -53,6 +55,20 @@ date:   2026-03-31 12:00:00
 - 다운로드한 이미지를 `img/posts/` 디렉토리에 `YYYY-MM-DD-slug.jpg` 형식으로 저장합니다.
 - front matter의 `image` 필드에 해당 경로를 지정합니다. (예: `"img/posts/2026-03-31-ai-news.jpg"`)
 - 대표 이미지를 가져올 수 없는 경우 기본 이미지 `"img/default.jpg"`를 사용합니다.
+
+### 원본 링크
+
+요약 대상 뉴스의 원본 링크를 반드시 포스트에 포함해야 합니다.
+
+1. **Front matter**: `source_url` 필드에 원본 기사 URL을 저장합니다.
+2. **본문 상단**: 본문 시작 부분에 blockquote로 원본 링크를 표시합니다.
+
+```markdown
+> 원본 기사: [URL](URL)
+```
+
+- 여러 기사를 요약한 경우, 각 기사의 링크를 본문 내 해당 섹션에 포함합니다.
+- `source_url`에는 대표 기사 1개의 URL을 지정합니다.
 
 ### 본문 작성
 
@@ -66,7 +82,10 @@ author: "kost0806"
 avatar: "img/authors/kost0806.png"
 image: "img/posts/2026-03-31-ai-news-summary.jpg"
 date:   2026-03-31 12:00:00
+source_url: "https://example.com/news/2026-03-31-ai-news"
 ---
+
+> 원본 기사: [https://example.com/news/2026-03-31-ai-news](https://example.com/news/2026-03-31-ai-news)
 
 ### 주요 뉴스 요약
 

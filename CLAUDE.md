@@ -25,9 +25,9 @@ _posts/YYYY-MM-DD-slug-title.markdown
 ---
 title:  "포스트 제목"
 subtitle: "포스트 부제목 (카드에 표시됨)"
-author: "작성자 이름"
-avatar: "img/authors/wferr.png"
-image: "img/a.jpg"
+author: "kost0806"
+avatar: "img/authors/kost0806.png"
+image: "img/posts/YYYY-MM-DD-slug.jpg"
 date:   2026-03-31 12:00:00
 ---
 ```
@@ -39,19 +39,20 @@ date:   2026-03-31 12:00:00
 | `title` | O | 포스트 제목. 큰따옴표로 감쌈 |
 | `subtitle` | O | 부제목. 카드 썸네일에 제목 아래 표시됨 |
 | `author` | O | 작성자 이름 |
-| `avatar` | O | 작성자 아바타 이미지 경로 (상대경로) |
-| `image` | O | 카드 배경 이미지 경로 (상대경로, 권장 해상도 1920x1200) |
+| `avatar` | O | 작성자 아바타 이미지 경로. `"img/authors/kost0806.png"` 사용 |
+| `image` | O | 카드 배경 이미지 경로. 요약 대상 링크의 대표 이미지(og:image)를 다운로드하여 `img/posts/` 디렉토리에 저장 후 해당 경로 지정 |
 | `date` | O | `YYYY-MM-DD HH:MM:SS` 형식. 최신 날짜가 먼저 표시됨 |
 
-### 사용 가능한 이미지
+### 이미지 설정
 
-현재 사용 가능한 카드 배경 이미지:
-- `img/a.jpg`, `img/b.jpg`, `img/c.jpg`, `img/d.jpg`, `img/e.jpg`, `img/f.jpg`
+#### 아바타
+- `"img/authors/kost0806.png"` 을 고정으로 사용합니다.
 
-현재 사용 가능한 아바타 이미지:
-- `img/authors/wferr.png`
-
-새 이미지를 추가하려면 `img/` 또는 `img/authors/` 디렉토리에 파일을 추가합니다.
+#### 카드 배경 이미지 (image)
+- 요약 대상 뉴스 링크의 대표 이미지(og:image 메타태그)를 다운로드합니다.
+- 다운로드한 이미지를 `img/posts/` 디렉토리에 `YYYY-MM-DD-slug.jpg` 형식으로 저장합니다.
+- front matter의 `image` 필드에 해당 경로를 지정합니다. (예: `"img/posts/2026-03-31-ai-news.jpg"`)
+- 대표 이미지를 가져올 수 없는 경우 기존 이미지(`img/a.jpg` ~ `img/f.jpg`) 중 하나를 사용합니다.
 
 ### 본문 작성
 
@@ -61,9 +62,9 @@ Front matter 아래에 마크다운으로 본문을 작성합니다. HTML도 사
 ---
 title:  "AI가 요약한 오늘의 뉴스"
 subtitle: "2026년 3월 31일 주요 뉴스"
-author: "AI Reporter"
-avatar: "img/authors/wferr.png"
-image: "img/a.jpg"
+author: "kost0806"
+avatar: "img/authors/kost0806.png"
+image: "img/posts/2026-03-31-ai-news-summary.jpg"
 date:   2026-03-31 12:00:00
 ---
 

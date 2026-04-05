@@ -8,8 +8,6 @@ date:   2026-04-01 15:00:00
 source_url: "https://github.com/instructkr/claw-code"
 ---
 
-> 원본 기사: [https://github.com/instructkr/claw-code](https://github.com/instructkr/claw-code)
-
 오픈소스 커뮤니티에서 **Claw Code**가 큰 화제를 모으고 있습니다. 이 프로젝트는 공개 후 단 **2시간 만에 GitHub 스타 5만 개**를 돌파하며, 역대 최단 시간 기록을 세웠습니다. 현재 **6만 1천 개 이상의 스타**와 **6만 2천 개 이상의 포크**를 기록하고 있습니다.
 
 ### Claw Code란?

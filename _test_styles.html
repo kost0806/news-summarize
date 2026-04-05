@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>First Paragraph Style Comparison</title>
+<style>
+  body {
+    font-family: Avenir, 'Helvetica Neue', 'Lato', 'Segoe UI', Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    color: #3b393d;
+    background: #f0f0f0;
+    -webkit-font-smoothing: antialiased;
+    margin: 0; padding: 20px;
+  }
+  a { text-decoration: none; color: #de6551; }
+
+  .option-label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background: #de6551;
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+  }
+
+  .card__content {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto 40px;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+
+  .card__caption {
+    font-size: 2em;
+    padding: 35px 30px 0px;
+  }
+  .card__title {
+    font-size: 1.5em;
+    line-height: 1;
+    margin: 5px 0 0 0;
+    color: #3b393d;
+  }
+  .card__subtitle {
+    font-size: .95em;
+    line-height: 1;
+    margin: 5px 0 0;
+    color: #777778;
+  }
+
+  .meta {
+    font-size: .85em;
+    display: flex;
+    padding: 0 0 35px 0;
+    align-items: center;
+  }
+  .meta__avatar {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background: #ccc;
+  }
+  .meta__author { font-weight: bold; padding: 0 15px; }
+  .meta__date { margin: 0 0 0 auto; }
+
+  .source-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.85em;
+    color: #de6551;
+    padding: 4px 0;
+    margin-bottom: 1em;
+  }
+
+  /* ========== CURRENT (문제 있는 현재 스타일) ========== */
+  .current .card__copy {
+    font-size: 1.25em;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 25px 30px 60px;
+    color: #3b393d;
+  }
+  .current .card__copy p:first-of-type {
+    font-size: 1em;
+    padding: 0.8em 1.2em;
+    border-left: 4px solid #de6551;
+    background: #f9f6f4;
+    color: #555;
+    line-height: 1.7;
+    margin-bottom: 1.5em;
+  }
+  .current .card__copy blockquote {
+    margin: 0 0 1.5em 0;
+    padding: 0.8em 1.2em;
+    border-left: 4px solid #ddd;
+    background: #f9f9f9;
+    color: #555;
+  }
+
+  /* ========== OPTION A: font-size만 축소 ========== */
+  .option-a .card__copy {
+    font-size: 1.25em;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 25px 30px 60px;
+    color: #3b393d;
+  }
+  .option-a .card__copy p:first-of-type {
+    font-size: 0.85em;
+    padding: 0.8em 1.2em;
+    border-left: 4px solid #de6551;
+    background: #f9f6f4;
+    color: #555;
+    line-height: 1.7;
+    margin-bottom: 1.5em;
+  }
+  .option-a .card__copy blockquote {
+    margin: 0 0 1.5em 0;
+    padding: 0.8em 1.2em;
+    border-left: 4px solid #ddd;
+    background: #f9f9f9;
+    color: #555;
+  }
+
+  /* ========== OPTION B: callout 스타일 제거, 일반 리드 문단 ========== */
+  .option-b .card__copy {
+    font-size: 1.25em;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 25px 30px 60px;
+    color: #3b393d;
+  }
+  .option-b .card__copy p:first-of-type {
+    font-size: 0.9em;
+    color: #666;
+    line-height: 1.8;
+    margin-bottom: 1.5em;
+  }
+  .option-b .card__copy blockquote {
+    margin: 0 0 1.5em 0;
+    padding: 0.8em 1.2em;
+    border-left: 4px solid #ddd;
+    background: #f9f9f9;
+    color: #555;
+  }
+
+  /* ========== OPTION C: 은은한 강조 (추천) ========== */
+  .option-c .card__copy {
+    font-size: 1.25em;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 25px 30px 60px;
+    color: #3b393d;
+  }
+  .option-c .card__copy p:first-of-type {
+    font-size: 0.9em;
+    padding: 0.6em 1em;
+    border-left: 3px solid #de6551;
+    color: #555;
+    line-height: 1.7;
+    margin-bottom: 1.5em;
+  }
+  .option-c .card__copy blockquote {
+    margin: 0 0 1.5em 0;
+    padding: 0.8em 1.2em;
+    border-left: 4px solid #ddd;
+    background: #f9f9f9;
+    color: #555;
+  }
+</style>
+</head>
+<body>
+
+<!-- ===== CURRENT ===== -->
+<div style="max-width:840px; margin:0 auto 10px;"><span class="option-label">CURRENT — 현재 (font-size: 1.25em × 1em = 20px, callout box)</span></div>
+<div class="current">
+<div class="card__content">
+  <div class="card__caption">
+    <h2 class="card__title">Andrej Karpathy가 제안한 'LLM Wiki' 패턴: LLM으로 개인 지식 베이스 구축하기</h2>
+    <p class="card__subtitle">RAG를 넘어서, LLM이 관리하는 위키로 지식을 축적하는 새로운 패러다임</p>
+  </div>
+  <div class="card__copy">
+    <div class="meta">
+      <div class="meta__avatar"></div>
+      <span class="meta__author">kost0806</span>
+      <span class="meta__date">2026-04-05</span>
+    </div>
+    <a class="source-link" href="#">🔗 원본 기사</a>
+    <p>Andrej Karpathy가 GitHub Gist를 통해 <strong>LLM Wiki</strong>라는 새로운 개인 지식 관리 패턴을 공개했습니다. 기존 RAG(Retrieval-Augmented Generation) 시스템이 매 질의마다 정보를 다시 검색하는 방식이라면, LLM Wiki는 LLM을 "컴파일러"로 활용하여 지속적으로 진화하는 위키를 관리하는 접근법입니다.</p>
+    <hr>
+    <h3>핵심 구조: 3계층 아키텍처</h3>
+    <h4>1. 원본 소스(Raw Sources)</h4>
+    <p>불변의 원본 문서(기사, 논문, PDF 등)로 구성된 <strong>진실의 원천(Source of Truth)</strong> 계층입니다. 한번 추가되면 변경되지 않습니다.</p>
+    <h4>2. 위키(The Wiki)</h4>
+    <p>LLM이 생성하고 관리하는 마크다운 파일들로 구성됩니다.</p>
+  </div>
+</div>
+</div>
+
+<!-- ===== OPTION A ===== -->
+<div style="max-width:840px; margin:0 auto 10px;"><span class="option-label">OPTION A — font-size 축소 (0.85em ≈ 17px, callout 유지)</span></div>
+<div class="option-a">
+<div class="card__content">
+  <div class="card__caption">
+    <h2 class="card__title">Andrej Karpathy가 제안한 'LLM Wiki' 패턴: LLM으로 개인 지식 베이스 구축하기</h2>
+    <p class="card__subtitle">RAG를 넘어서, LLM이 관리하는 위키로 지식을 축적하는 새로운 패러다임</p>
+  </div>
+  <div class="card__copy">
+    <div class="meta">
+      <div class="meta__avatar"></div>
+      <span class="meta__author">kost0806</span>
+      <span class="meta__date">2026-04-05</span>
+    </div>
+    <a class="source-link" href="#">🔗 원본 기사</a>
+    <p>Andrej Karpathy가 GitHub Gist를 통해 <strong>LLM Wiki</strong>라는 새로운 개인 지식 관리 패턴을 공개했습니다. 기존 RAG(Retrieval-Augmented Generation) 시스템이 매 질의마다 정보를 다시 검색하는 방식이라면, LLM Wiki는 LLM을 "컴파일러"로 활용하여 지속적으로 진화하는 위키를 관리하는 접근법입니다.</p>
+    <hr>
+    <h3>핵심 구조: 3계층 아키텍처</h3>
+    <h4>1. 원본 소스(Raw Sources)</h4>
+    <p>불변의 원본 문서(기사, 논문, PDF 등)로 구성된 <strong>진실의 원천(Source of Truth)</strong> 계층입니다. 한번 추가되면 변경되지 않습니다.</p>
+    <h4>2. 위키(The Wiki)</h4>
+    <p>LLM이 생성하고 관리하는 마크다운 파일들로 구성됩니다.</p>
+  </div>
+</div>
+</div>
+
+<!-- ===== OPTION B ===== -->
+<div style="max-width:840px; margin:0 auto 10px;"><span class="option-label">OPTION B — callout 제거, 일반 리드 문단 (font-size: 0.9em, 장식 없음)</span></div>
+<div class="option-b">
+<div class="card__content">
+  <div class="card__caption">
+    <h2 class="card__title">Andrej Karpathy가 제안한 'LLM Wiki' 패턴: LLM으로 개인 지식 베이스 구축하기</h2>
+    <p class="card__subtitle">RAG를 넘어서, LLM이 관리하는 위키로 지식을 축적하는 새로운 패러다임</p>
+  </div>
+  <div class="card__copy">
+    <div class="meta">
+      <div class="meta__avatar"></div>
+      <span class="meta__author">kost0806</span>
+      <span class="meta__date">2026-04-05</span>
+    </div>
+    <a class="source-link" href="#">🔗 원본 기사</a>
+    <p>Andrej Karpathy가 GitHub Gist를 통해 <strong>LLM Wiki</strong>라는 새로운 개인 지식 관리 패턴을 공개했습니다. 기존 RAG(Retrieval-Augmented Generation) 시스템이 매 질의마다 정보를 다시 검색하는 방식이라면, LLM Wiki는 LLM을 "컴파일러"로 활용하여 지속적으로 진화하는 위키를 관리하는 접근법입니다.</p>
+    <hr>
+    <h3>핵심 구조: 3계층 아키텍처</h3>
+    <h4>1. 원본 소스(Raw Sources)</h4>
+    <p>불변의 원본 문서(기사, 논문, PDF 등)로 구성된 <strong>진실의 원천(Source of Truth)</strong> 계층입니다. 한번 추가되면 변경되지 않습니다.</p>
+    <h4>2. 위키(The Wiki)</h4>
+    <p>LLM이 생성하고 관리하는 마크다운 파일들로 구성됩니다.</p>
+  </div>
+</div>
+</div>
+
+<!-- ===== OPTION C ===== -->
+<div style="max-width:840px; margin:0 auto 10px;"><span class="option-label">OPTION C (추천) — 은은한 강조 (font-size: 0.9em, 얇은 border만, 배경 없음)</span></div>
+<div class="option-c">
+<div class="card__content">
+  <div class="card__caption">
+    <h2 class="card__title">Andrej Karpathy가 제안한 'LLM Wiki' 패턴: LLM으로 개인 지식 베이스 구축하기</h2>
+    <p class="card__subtitle">RAG를 넘어서, LLM이 관리하는 위키로 지식을 축적하는 새로운 패러다임</p>
+  </div>
+  <div class="card__copy">
+    <div class="meta">
+      <div class="meta__avatar"></div>
+      <span class="meta__author">kost0806</span>
+      <span class="meta__date">2026-04-05</span>
+    </div>
+    <a class="source-link" href="#">🔗 원본 기사</a>
+    <p>Andrej Karpathy가 GitHub Gist를 통해 <strong>LLM Wiki</strong>라는 새로운 개인 지식 관리 패턴을 공개했습니다. 기존 RAG(Retrieval-Augmented Generation) 시스템이 매 질의마다 정보를 다시 검색하는 방식이라면, LLM Wiki는 LLM을 "컴파일러"로 활용하여 지속적으로 진화하는 위키를 관리하는 접근법입니다.</p>
+    <hr>
+    <h3>핵심 구조: 3계층 아키텍처</h3>
+    <h4>1. 원본 소스(Raw Sources)</h4>
+    <p>불변의 원본 문서(기사, 논문, PDF 등)로 구성된 <strong>진실의 원천(Source of Truth)</strong> 계층입니다. 한번 추가되면 변경되지 않습니다.</p>
+    <h4>2. 위키(The Wiki)</h4>
+    <p>LLM이 생성하고 관리하는 마크다운 파일들로 구성됩니다.</p>
+  </div>
+</div>
+</div>
+
+</body>
+</html>

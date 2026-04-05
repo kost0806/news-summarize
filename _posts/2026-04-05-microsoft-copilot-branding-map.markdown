@@ -1,0 +1,66 @@
+---
+title:  "Microsoft 'Copilot'이라는 이름의 제품이 최소 75개? 브랜드 혼란의 전모"
+subtitle: "앱, 기능, 플랫폼, 하드웨어까지 — Copilot 브랜딩의 무분별한 확산을 추적한 분석"
+author: "kost0806"
+avatar: "img/authors/kost0806.png"
+image: "img/default.jpg"
+date:   2026-04-05 11:00:00
+source_url: "https://teybannerman.com/strategy/2026/03/31/how-many-microsoft-copilot-are-there.html"
+---
+
+> 원본 기사: [https://teybannerman.com/strategy/2026/03/31/how-many-microsoft-copilot-are-there.html](https://teybannerman.com/strategy/2026/03/31/how-many-microsoft-copilot-are-there.html)
+
+전략 분석가 Tey Bannerman이 누군가에게 "Microsoft Copilot이 뭐냐"고 설명하려다 깨달은 사실이 있습니다. **'Copilot'이라는 이름이 최소 75개 이상의 서로 다른 제품·기능에 붙어 있다**는 것입니다. 그는 이 모든 것을 하나하나 추적하여 인터랙티브 시각화로 정리했습니다.
+
+---
+
+### 문제의 발단: 설명할 수 없는 브랜드
+
+> *"몇 주 전, 누군가에게 Microsoft Copilot이 무엇인지 설명하려 했습니다. 하지만 할 수 없었습니다… 'Copilot'이라는 이름이 이제 최소 75개의 서로 다른 것을 가리키기 때문입니다."*
+
+하나의 AI 어시스턴트를 지칭하는 것처럼 보이는 'Copilot'이라는 이름이, 실제로는 앱·기능·플랫폼·하드웨어·개발 도구 등 전혀 다른 범주의 제품들에 걸쳐 사용되고 있었습니다.
+
+---
+
+### 75개 이상의 Copilot: 카테고리별 분류
+
+Bannerman이 파악한 Copilot 브랜딩은 다음과 같은 카테고리에 걸쳐 있습니다:
+
+#### 1. 앱(Apps)
+독립 실행형 애플리케이션으로서의 Copilot 제품들입니다.
+
+#### 2. 기능(Features)
+기존 Microsoft 제품(Word, Excel, Teams 등) 내에 탑재된 AI 기능으로서의 Copilot입니다.
+
+#### 3. 플랫폼(Platforms)
+다른 서비스나 워크플로우를 구축할 수 있는 기반 플랫폼으로서의 Copilot입니다.
+
+#### 4. 하드웨어(Hardware)
+키보드의 물리적 **Copilot 키**와 **Copilot+ PC**라는 노트북 카테고리까지, 하드웨어 영역에도 브랜딩이 확장되었습니다.
+
+#### 5. 빌더 도구(Builder Tools)
+새로운 Copilot을 만들기 위한 도구들 — 즉, Copilot을 만드는 Copilot까지 존재합니다.
+
+---
+
+### 조사 방법론
+
+Bannerman은 이 목록을 만들기 위해 다음 소스들을 조사했습니다:
+
+- Microsoft 공식 제품 페이지
+- 제품 출시 발표문
+- 마케팅 자료
+
+주목할 점은 **"어떤 단일 소스에도 전체 목록이 없었다"**는 것입니다. Microsoft 자체 웹사이트에서조차 모든 Copilot 제품을 한눈에 볼 수 있는 곳이 없었습니다. 그는 이 결과를 인터랙티브 Flourish 시각화와 다운로드 가능한 인포그래픽으로 정리했습니다.
+
+---
+
+### 시사점: 브랜드 전략의 교훈
+
+이 분석이 보여주는 핵심 문제는 **브랜드 일관성의 부재**입니다:
+
+- **사용자 혼란**: 같은 이름이 75개 이상의 서로 다른 것을 의미하면, 고객이 자신에게 필요한 제품을 식별하기 어렵습니다
+- **패턴 부재**: 시각화를 통해 일관된 조직 논리를 찾으려 했지만, 명확한 패턴을 발견할 수 없었습니다
+- **네이밍 인플레이션**: AI 경쟁에서 앞서 나가려는 의지가 오히려 브랜드 가치를 희석시킬 수 있다는 경고입니다
+
+Microsoft의 Copilot 브랜딩 사례는 기술 기업들이 AI 시대에 직면하는 근본적인 질문을 제기합니다 — 하나의 강력한 브랜드명을 모든 곳에 붙이는 것이 정말 효과적인 전략인가, 아니면 오히려 의미를 잃게 만드는 것인가.

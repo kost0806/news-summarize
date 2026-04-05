@@ -8,8 +8,6 @@ date:   2026-04-05 11:00:00
 source_url: "https://teybannerman.com/strategy/2026/03/31/how-many-microsoft-copilot-are-there.html"
 ---
 
-> 원본 기사: [https://teybannerman.com/strategy/2026/03/31/how-many-microsoft-copilot-are-there.html](https://teybannerman.com/strategy/2026/03/31/how-many-microsoft-copilot-are-there.html)
-
 전략 분석가 Tey Bannerman이 누군가에게 "Microsoft Copilot이 뭐냐"고 설명하려다 깨달은 사실이 있습니다. **'Copilot'이라는 이름이 최소 75개 이상의 서로 다른 제품·기능에 붙어 있다**는 것입니다. 그는 이 모든 것을 하나하나 추적하여 인터랙티브 시각화로 정리했습니다.
 
 ---

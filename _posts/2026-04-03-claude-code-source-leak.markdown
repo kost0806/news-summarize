@@ -8,8 +8,6 @@ date:   2026-04-03 12:00:00
 source_url: "https://alex000kim.com/posts/2026-03-31-claude-code-source-leak/"
 ---
 
-> 원본 기사: [https://alex000kim.com/posts/2026-03-31-claude-code-source-leak/](https://alex000kim.com/posts/2026-03-31-claude-code-source-leak/)
-
 2026년 3월 31일, Anthropic이 npm 패키지에 소스맵 파일을 포함한 채 배포하면서 Claude Code의 전체 소스코드가 실수로 공개되었습니다. 이번 유출로 인해 내부 보안 전략, 미공개 제품 로드맵 등 민감한 정보가 외부에 드러났습니다.
 
 ---

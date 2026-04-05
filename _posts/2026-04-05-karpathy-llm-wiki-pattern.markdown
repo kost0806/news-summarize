@@ -8,8 +8,6 @@ date:   2026-04-05 12:00:00
 source_url: "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f"
 ---
 
-> 원본 기사: [https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)
-
 Andrej Karpathy가 GitHub Gist를 통해 **LLM Wiki**라는 새로운 개인 지식 관리 패턴을 공개했습니다. 기존 RAG(Retrieval-Augmented Generation) 시스템이 매 질의마다 정보를 다시 검색하는 방식이라면, LLM Wiki는 LLM을 "컴파일러"로 활용하여 지속적으로 진화하는 위키를 관리하는 접근법입니다.
 
 ---

@@ -61,6 +61,11 @@ layout: compress
                                 <span class="meta__author">{{ post.author }}</span>
                                 <span class="meta__date">{{ post.date | date: "%Y-%m-%d" }}</span>
                             </div>
+                            {% if post.source_url %}
+                            <a class="source-link" href="{{ post.source_url }}" target="_blank" rel="noopener noreferrer">
+                                <i class="fa fa-external-link"></i> 원본 기사
+                            </a>
+                            {% endif %}
                             {{ post.content }}
                         </div>
                     </div>

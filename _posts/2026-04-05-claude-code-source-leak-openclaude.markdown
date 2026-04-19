@@ -4,7 +4,7 @@ subtitle: "npm 소스맵 유출로 드러난 에이전트 프레임워크의 진
 author: "kost0806"
 avatar: "img/authors/kost0806.png"
 image: "img/posts/2026-04-05-claude-code-source-leak-openclaude.png"
-date:   2026-04-05 12:00:00
+date:   2026-04-05 13:00:00
 source_url: "https://wikidocs.net/blog/@jaehong/10423/"
 ---
 

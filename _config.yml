@@ -6,3 +6,4 @@ author: kost0806
 baseurl: "/news-summarize"
 url: "https://kost0806.github.io"
 future: true
+timezone: Asia/Seoul

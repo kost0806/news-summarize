@@ -1,0 +1,41 @@
+---
+title:  "[2026-05-12 / Top 6] Nullsoft, 1997-2004 (2004)"
+subtitle: "Winamp를 만든 마지막 독립 테크 기업의 흥망성쇠"
+author: "kost0806"
+avatar: "img/authors/kost0806.png"
+image: "img/default.jpg"
+date:   2026-05-12 06:00:00
+source_url: "https://slate.com/technology/2004/11/the-death-of-the-last-maverick-tech-company.html"
+---
+
+> 원본 기사: [https://slate.com/technology/2004/11/the-death-of-the-last-maverick-tech-company.html](https://slate.com/technology/2004/11/the-death-of-the-last-maverick-tech-company.html)
+> HN 토론: [https://news.ycombinator.com/item?id=48060077](https://news.ycombinator.com/item?id=48060077) | 점수: 211 | 댓글: 70
+
+### 개요
+
+2004년 Slate에 실린 이 글은 Nullsoft의 흥망을 다루며 "마지막 독립 테크 기업의 죽음"이라는 제목을 달았습니다. 20년이 지난 지금도 HN에서 211점을 얻을 만큼, Nullsoft의 이야기는 여전히 많은 개발자와 기술 역사 애호가들에게 깊은 인상을 남깁니다.
+
+### Nullsoft는 무엇인가?
+
+**Nullsoft**는 1997년 저스틴 프란켈(Justin Frankel)과 톰 포터(Tom Pepper)가 설립한 회사입니다. 그들의 가장 유명한 작품은:
+
+- **Winamp** (1997): 전 세계 수억 명이 사용한 MP3 플레이어. "Winamp, it really whips the llama's ass!"라는 오프닝 사운드로 유명
+- **Gnutella** (2000): 최초의 분산형 P2P 파일 공유 프로토콜 (AOL의 허가 없이 개발·배포됨)
+- **Waste** (2003): 분산형 암호화 메시징 네트워크
+
+### AOL에 인수된 후
+
+1999년 AOL이 Nullsoft를 약 8,000만 달러에 인수했습니다. 이후 Nullsoft는 AOL 산하에서도 반골적인 문화를 유지하며 Gnutella 같은 반(反)AOL적 프로젝트를 내부에서 진행했습니다.
+
+2004년 AOL이 Nullsoft를 사실상 해산하면서, 인터넷 태동기의 가장 혁신적인 소규모 팀 중 하나가 역사의 뒤안길로 사라졌습니다.
+
+### 역사적 의미
+
+Nullsoft의 이야기는 다음을 상징합니다:
+- **독립 정신**: 대기업에 인수된 후에도 자신들의 방식을 고수하려 한 개발자들
+- **P2P 혁명**: Gnutella가 씨앗이 되어 BitTorrent 등 분산 기술의 발전을 이끔
+- **Winamp의 유산**: 디지털 음악 시대의 문을 연 소프트웨어
+
+### HN 반응
+
+HN 커뮤니티는 Winamp와 Nullsoft를 직접 경험한 세대의 향수와 함께, 독립 스타트업 문화와 대기업 인수 후의 창의성 상실에 대한 논의를 이어갔습니다.

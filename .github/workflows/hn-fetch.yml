@@ -1,4 +1,4 @@
-name: Fetch HN Top 10 Data
+name: Fetch HN Top 10 and Create Posts
 
 on:
   push:
@@ -11,7 +11,7 @@ permissions:
   contents: write
 
 jobs:
-  fetch-data:
+  fetch-and-post:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -22,17 +22,22 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Fetch HN top 10 data
-        run: python .github/scripts/fetch_hn_data.py
+      - name: Install dependencies
+        run: pip install anthropic
 
-      - name: Commit data
+      - name: Fetch HN top 10 and create Korean posts
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python .github/scripts/fetch_hn.py
+
+      - name: Commit posts and images
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add hn_data.json img/posts/
+          git add _posts/ img/posts/
           if ! git diff --cached --quiet; then
-            git commit -m "fetch: HN top 10 data for $(date -u +%Y-%m-%d) [skip ci]"
+            git commit -m "feat: add HN top 10 posts for $(date -u +%Y-%m-%d)"
             git push origin main
           else
-            echo "No new data to commit"
+            echo "No new posts to commit"
           fi

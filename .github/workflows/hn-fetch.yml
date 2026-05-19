@@ -23,7 +23,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install anthropic
+        run: pip install anthropic || true
 
       - name: Fetch HN top 10 and create Korean posts
         env:

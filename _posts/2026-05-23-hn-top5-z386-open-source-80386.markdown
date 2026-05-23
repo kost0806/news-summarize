@@ -1,0 +1,33 @@
+---
+title:  "[2026-05-23 / Top 5] z386: 원본 마이크로코드 기반 오픈소스 80386"
+subtitle: "HN 45점 · 11개 댓글"
+author: "kost0806"
+avatar: "img/authors/kost0806.png"
+image: "img/default.jpg"
+date:   2026-05-23 12:04:00
+source_url: "https://nand2mario.github.io/posts/2026/z386/"
+---
+
+> 원본 기사: [https://nand2mario.github.io/posts/2026/z386/](https://nand2mario.github.io/posts/2026/z386/)
+
+> HN 토론: [https://news.ycombinator.com/item?id=48248014](https://news.ycombinator.com/item?id=48248014)
+
+### 개요
+
+80386 마이크로코드 역어셈블 성과를 활용하여 만들어진 오픈소스 FPGA 기반 80386 CPU 구현체 z386을 소개합니다. SystemVerilog로 작성되었으며 DOS 부팅과 Doom 실행이 가능합니다.
+
+### 주요 내용
+
+- **원본 마이크로코드 활용**: 역어셈블된 Intel 80386 마이크로코드를 기반으로 설계 — 37비트 폭, 2,560개 엔트리의 마이크로코드 ROM 구현
+- **FPGA 구현**: DE10-Nano에서 75MHz로 동작, 18K LUT 사용으로 작은 면적
+- **호환성**: DOS 6/7 부팅, 보호 모드 소프트웨어 실행, Doom 동작 확인
+- **아키텍처**: 32엔트리 페이징 TLB, 배럴 시프터, Protection PLA 모델 등 원본과 유사한 구조 유지
+- **ao486 비교**: ao486_MiSTer 대비 75% 성능이지만, 더 작은 로직 크기와 높은 클럭 속도
+
+### HN 커뮤니티 반응
+
+HN 점수 45점, 댓글 11개. 낮은 LUT 사용량(18K)에 대한 감탄과 함께, Linux보다 Doom이 더 쉬운 테스트 대상인 이유(더 단순한 페이지 테이블 구조)에 대한 재미있는 논의가 이어졌습니다.
+
+### 시사점
+
+레트로 컴퓨팅과 하드웨어 보존 분야의 의미 있는 성과입니다. 원본 마이크로코드를 기반으로 한 정확한 CPU 재현은 에뮬레이션 연구에도 가치 있는 기여입니다.

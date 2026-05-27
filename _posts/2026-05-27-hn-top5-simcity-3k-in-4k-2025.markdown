@@ -1,0 +1,34 @@
+---
+title:  "[2026-05-27 / Top 5] SimCity 3k in 4k (2025)"
+subtitle: "HN 238점 · 83개 댓글"
+author: "kost0806"
+avatar: "img/authors/kost0806.png"
+image: "img/posts/2026-05-27-hn-top5-simcity-3k-in-4k-2025.jpg"
+date:   2026-05-27 12:00:00
+source_url: "https://www.thran.uk/writ/hdid/2025/12/simcity-3k-in-4k.html"
+---
+
+> 원본 기사: [https://www.thran.uk/writ/hdid/2025/12/simcity-3k-in-4k.html](https://www.thran.uk/writ/hdid/2025/12/simcity-3k-in-4k.html)
+
+> HN 토론: [https://news.ycombinator.com/item?id=48297645](https://news.ycombinator.com/item?id=48297645)
+
+### 개요
+
+Thranpages :: How Did I Do :: SimCity 3k in 4k Thran pages No. 59 Vol. 1 Sat 20 December 2025 Price: 0/0d HOME // WRIT // THRANSOFT // WMW SimCity 3k in 4k How Did I Do &gt;&gt; Sat 20 December 2025 by Thran SimCity 3000 is the best SimCity. It's built upon a souped-up version of the Sc2K engine. It features isometric art, crafted pixel by pixel.
+
+### 주요 내용
+
+원문 기사 링크를 통해 전체 내용을 확인할 수 있습니다.
+
+- **HN 점수**: 238점
+- **댓글 수**: 83개
+- **원문**: [https://www.thran.uk/writ/hdid/2025/12/simcity-3k-in-4k.html](https://www.thran.uk/writ/hdid/2025/12/simcity-3k-in-4k.html)
+
+### HN 커뮤니티 반응
+
+HN 점수 238점, 댓글 83개로 커뮤니티의 높은 관심을 받은 글입니다.
+HN 토론 링크에서 전체 댓글을 확인하세요.
+
+### 시사점
+
+Hacker News 커뮤니티가 주목한 이슈입니다. 원문과 HN 토론을 함께 읽어보시길 권장합니다.

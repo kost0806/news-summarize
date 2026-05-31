@@ -155,7 +155,7 @@ def claude_generate_post(client, title_en, story_url, hn_url, article_text, scor
 }}"""
 
     response = client.messages.create(
-        model='claude-opus-4-7',
+        model='claude-opus-4-8',
         max_tokens=2000,
         messages=[{'role': 'user', 'content': prompt}],
     )
